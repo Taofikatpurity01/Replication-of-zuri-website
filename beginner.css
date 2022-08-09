@@ -70,7 +70,7 @@ nav {
     display: grid;
     grid-template-columns: 25% 50% 25%;
     gap: 1rem;
-    margin: 6rem auto 6rem auto;
+    margin: 6rem auto;
     width: 90%;
     justify-items: end;
 }
@@ -111,6 +111,7 @@ nav {
 .hero-text-info {
     margin: 2rem auto;
     width: 65%;
+    color: #1b1a20;
 }
 
 .enroll-red {
@@ -194,6 +195,7 @@ nav {
 }
 
 .why-zuri-header-text h2 {
+    color: #1b1a20;
     font-size: 35px;
 }
 
@@ -227,7 +229,7 @@ nav {
 }
 
 .card h2 {
-    width: 70% ;
+    width: 70%;
     font-size: 35px;
     font-weight: 600;
     line-height: 47px;
@@ -447,28 +449,28 @@ nav {
     outline: none;
     font-size: 15px;
     transition: 0.4s;
-  }
-  
-  .accordion:after {
+}
+
+.accordion:after {
     content: '\002B';
     color: #777;
     font-weight: bold;
     float: right;
     margin-left: 5px;
-  }
-  
-  .active:after {
+}
+
+.active:after {
     content: "\2212";
-  }
-  
-  .panel {
+}
+
+.panel {
     padding: 0 18px;
     /* background-color: white; */
     max-height: 0;
     border: 1px solid #b4b4b4;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
-  }
+}
 
 .program-structure {
     width: 75%;
@@ -521,6 +523,8 @@ nav {
     border-radius: 35px;
     position: relative;
 }
+
+
 
 .program-structure-card img {
     position: absolute;
@@ -624,4 +628,1280 @@ footer .privacy {
 .privacy a {
     text-decoration: none;
     color: #1b1a20;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    nav img {
+        width: 150px;
+    }
+
+    .menu ul {
+        display: none;
+    }
+
+    .enroll-now {
+        margin-left: 0;
+    }
+
+    .enroll-now img {
+        width: 60px;
+        margin-left: -29px;
+    }
+
+    .enroll-now a {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .hero {
+        grid-template-columns: 100%;
+        margin: 0 auto;
+    }
+
+    .img-male {
+        display: none;
+    }
+
+    .face {
+        display: none;
+    }
+
+    .hero-text-title {
+        font-size: 25px;
+        line-height: normal;
+        text-align: center;
+        width: 95%;
+        margin: auto;
+        font-weight: 600;
+    }
+
+    .line {
+        right: 3rem;
+        width: 130px !important;
+    }
+
+    .hero-text-info {
+        width: 100%;
+        font-weight: 400;
+    }
+
+    .enroll-red {
+        font-size: 18px;
+        letter-spacing: normal;
+        padding: .5rem 1rem;
+    }
+
+    .wir {
+        margin-top: 1rem;
+        width: 60px !important;
+        margin-left: 12rem;
+    }
+
+    .i4g {
+        grid-template-columns: 100%;
+        text-align: center;
+    }
+
+    .i4g p {
+        font-size: 17px;
+        text-align: center;
+        color: #1b1a20;
+    }
+
+    .why-zuri-header {
+        grid-template-columns: 100%;
+    }
+
+    .section3wire {
+        width: 70px;
+        left: 12rem;
+    }
+
+    .why-zuri-header-text p {
+        font-size: 19px;
+    }
+
+    .why-zuri-header-text h2 {
+        font-size: 22px;
+        line-height: normal;
+    }
+
+    .why-zuri-star {
+        display: none;
+    }
+
+    .why-zuri-cards {
+        grid-template-columns: 100%;
+    }
+
+    .card {
+        padding: 2.1rem 2.8rem;
+    }
+
+    .card img {
+        width: 150px;
+    }
+
+    .card h1 {
+        font-size: 39px;
+    }
+
+    .card h2 {
+        font-size: 30px;
+        width: 54%;
+        line-height: normal;
+        margin: 1.5rem 0;
+    }
+
+    .card p {
+        margin-bottom: 1rem;
+    }
+
+    .training-container {
+        width: 90%;
+        grid-template-columns: 100%;
+    }
+
+    .get-started {
+        font-size: 17px;
+    }
+
+    .high-quality {
+        width: 90%;
+        font-size: 28px;
+    }
+
+    .promise {
+        width: 90%;
+    }
+
+    .advantages-card {
+        gap: .7rem;
+    }
+
+    .advantages-card img {
+        width: 45px;
+    }
+
+    .advantages-card p {
+        font-size: 13px;
+    }
+
+    .dot-training {
+        width: 50px;
+        bottom: -420px;
+        left: 0;
+    }
+
+    .training-img {
+        margin-bottom: 2rem;
+    }
+
+    .scope {
+        border-bottom: 1px solid #d6d6d6;
+    }
+
+    .scope-header {
+        width: 90%;
+    }
+
+    .scope-header p {
+        font-size: 17px;
+    }
+
+    .scope-header h2 {
+        font-size: 22px;
+    }
+
+    .scope-cards {
+        grid-template-columns: 100%;
+    }
+
+    .faq {
+        width: 90%;
+        border-bottom: 1px solid #d6d6d6;
+    }
+
+    .faq .section7wire {
+        width: 90px;
+        left: -2rem;
+    }
+
+    .faq-header p {
+        font-size: 18px;
+    }
+
+    .faq-header h2 {
+        font-size: 22px;
+        color: #1b1a20;
+        font-weight: 600;
+    }
+
+    .tweet-at-us {
+        flex-direction: column;
+        gap: .5rem;
+        margin-bottom: 2rem;
+    }
+
+    .tweet-at-us p {
+        font-size: 14px;
+    }
+
+    .program-structure {
+        width: 90%;
+        margin: 6rem auto;
+    }
+
+    .section7wire {
+        margin-left: 2rem;
+        width: 90px;
+        position: absolute;
+        left: -.5rem;
+        top: -3rem;
+    }
+
+    .section7star {
+        width: 50px;
+        position: absolute;
+        right: .5rem;
+        top: -2rem;
+    }
+
+    .program-structure-header p:first-child {
+        font-size: 17px;
+    }
+
+    .program-structure-header h2 {
+        font-size: 24px;
+    }
+
+    .program-structure-header p:last-child {
+        font-size: 14px;
+        width: 90%;
+        margin: 1.5rem auto;
+    }
+
+    .program-structure-cards {
+        grid-template-columns: 100%;
+        margin: 3rem 0;
+    }
+
+    .break-into h2 {
+        font-size: 27px;
+        width: 55%;
+        font-weight: 600;
+    }
+
+    .break-into .bend {
+        width: 120px;
+    }
+
+    .break-into .curve {
+        width: 100px;
+    }
+
+    .break-into .round {
+        width: 90px;
+        left: 3rem;
+        top: 2.5rem;
+    }
+
+    .break-into .mains {
+        width: 100px;
+    }
+
+    .semi-footer {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    footer .privacy {
+        width: 90%;
+        border-top: 1px solid #d6d6d6;
+        margin: 2rem auto 0 auto;
+        padding: 1rem 0 0 0;
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    nav img {
+        width: 150px;
+    }
+
+    .menu ul {
+        display: none;
+    }
+
+    .enroll-now {
+        margin-left: 0;
+    }
+
+    .enroll-now img {
+        width: 60px;
+        margin-left: -29px;
+    }
+
+    .enroll-now a {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .hero {
+        grid-template-columns: 100%;
+        margin: 0 auto;
+    }
+
+    .img-male {
+        display: none;
+    }
+
+    .face {
+        display: none;
+    }
+
+    .hero-text-title {
+        font-size: 35px;
+        line-height: normal;
+        text-align: center;
+        width: 95%;
+        margin: auto;
+        font-weight: 600;
+    }
+
+    .line {
+        right: 12rem;
+        width: 130px !important;
+    }
+
+    .hero-text-info {
+        width: 100%;
+        font-weight: 400;
+    }
+
+    .enroll-red {
+        font-size: 18px;
+        letter-spacing: normal;
+        padding: .5rem 1rem;
+    }
+
+    .wir {
+        margin-top: 1rem;
+        width: 80px !important;
+        margin-left: 12rem;
+    }
+
+    .i4g {
+        grid-template-columns: 100%;
+        text-align: center;
+    }
+
+    .i4g p {
+        font-size: 17px;
+        text-align: center;
+        color: #1b1a20;
+    }
+
+    .why-zuri-header {
+        grid-template-columns: 100%;
+    }
+
+    .section3wire {
+        width: 70px;
+        left: 12rem;
+    }
+
+    .why-zuri-header-text p {
+        font-size: 19px;
+    }
+
+    .why-zuri-header-text h2 {
+        font-size: 22px;
+        line-height: normal;
+    }
+
+    .why-zuri-star {
+        display: none;
+    }
+
+    .why-zuri-cards {
+        grid-template-columns: 100%;
+    }
+
+    .card {
+        padding: 3.5rem 2.8rem;
+    }
+
+    .card img {
+        width: 170px;
+    }
+
+    .card h1 {
+        font-size: 55px;
+    }
+
+    .card h2 {
+        font-size: 30px;
+        width: 37%;
+        line-height: normal;
+        margin: 1.5rem 0;
+    }
+
+    .card p {
+        margin-bottom: 2rem;
+        font-size: 17px;
+    }
+
+    .training-container {
+        width: 90%;
+        grid-template-columns: 100%;
+    }
+
+    .get-started {
+        font-size: 17px;
+    }
+
+    .high-quality {
+        width: 90%;
+        font-size: 28px;
+    }
+
+    .promise {
+        width: 90%;
+    }
+
+    .advantages-card {
+        gap: .7rem;
+    }
+
+    .advantages-card img {
+        width: 45px;
+    }
+
+    .advantages-card p {
+        font-size: 13px;
+    }
+
+    .dot-training {
+        width: 70px;
+        bottom: -560px;
+        left: 0;
+    }
+
+    .training-img {
+        margin-bottom: 2rem;
+    }
+
+    .scope {
+        border-bottom: 1px solid #d6d6d6;
+    }
+
+    .scope-header {
+        width: 60%;
+    }
+
+    .scope-header p {
+        font-size: 17px;
+    }
+
+    .scope-header h2 {
+        font-size: 22px;
+    }
+
+    .scope-cards {
+        grid-template-columns: 100%;
+    }
+
+    .faq {
+        width: 90%;
+        border-bottom: 1px solid #d6d6d6;
+    }
+
+    .faq .section7wire {
+        width: 90px;
+        left: -2rem;
+    }
+
+    .faq-header p {
+        font-size: 18px;
+    }
+
+    .faq-header h2 {
+        font-size: 22px;
+        color: #1b1a20;
+        font-weight: 600;
+    }
+
+    .tweet-at-us {
+        flex-direction: column;
+        gap: .5rem;
+        margin-bottom: 2rem;
+    }
+
+    .tweet-at-us p {
+        font-size: 14px;
+    }
+
+    .program-structure {
+        width: 90%;
+        margin: 6rem auto;
+    }
+
+    .section7wire {
+        margin-left: 2rem;
+        width: 90px;
+        position: absolute;
+        left: -.5rem;
+        top: -3rem;
+    }
+
+    .section7star {
+        width: 50px;
+        position: absolute;
+        right: .5rem;
+        top: -2rem;
+    }
+
+    .program-structure-header p:first-child {
+        font-size: 17px;
+    }
+
+    .program-structure-header h2 {
+        font-size: 24px;
+    }
+
+    .program-structure-header p:last-child {
+        font-size: 14px;
+        width: 90%;
+        margin: 1.5rem auto;
+    }
+
+    .program-structure-cards {
+        grid-template-columns: 100%;
+        margin: 3rem 0;
+    }
+
+    .break-into h2 {
+        font-size: 35px;
+        width: 55%;
+        font-weight: 600;
+    }
+
+    .break-into .bend {
+        width: 120px;
+    }
+
+    .break-into .curve {
+        width: 100px;
+    }
+
+    .break-into .round {
+        width: 90px;
+        left: 3rem;
+        top: 2.5rem;
+    }
+
+    .break-into .mains {
+        width: 100px;
+    }
+
+    .semi-footer {
+        width: 90%;
+        margin: 5rem auto 3rem auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .socials {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    footer {
+        width: 90%;
+        margin: 1rem auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    footer .privacy {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .privacy a {
+        text-decoration: none;
+        color: #1b1a20;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    nav img {
+        width: 150px;
+    }
+
+    .menu ul {
+        display: none;
+    }
+
+    .enroll-now {
+        margin-left: 0;
+    }
+
+    .enroll-now img {
+        width: 60px;
+        margin-left: -29px;
+    }
+
+    .enroll-now a {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .hero {
+        grid-template-columns: 100%;
+        margin: 0 auto;
+    }
+
+    .img-male {
+        display: none;
+    }
+
+    .face {
+        display: none;
+    }
+
+    .hero-text-title {
+        font-size: 35px;
+        line-height: normal;
+        text-align: center;
+        width: 95%;
+        margin: auto;
+        font-weight: 600;
+    }
+
+    .line {
+        right: 2rem;
+        width: 170px !important;
+    }
+
+    .hero-text-info {
+        width: 55%;
+        font-weight: 400;
+    }
+
+    .enroll-red {
+        font-size: 18px;
+        letter-spacing: normal;
+        padding: .5rem 1rem;
+    }
+
+    .wir {
+        margin-top: 1rem;
+        width: 80px !important;
+        margin-left: 12rem;
+    }
+
+    .i4g {
+        grid-template-columns: 100%;
+        text-align: center;
+    }
+
+    .i4g p {
+        font-size: 17px;
+        text-align: center;
+        color: #1b1a20;
+    }
+
+    .why-zuri-header {
+        grid-template-columns: 100%;
+    }
+
+    .section3wire {
+        width: 110px;
+        top: -5rem;
+        left: 20rem;
+    }
+
+    .why-zuri-header-text p {
+        font-size: 19px;
+    }
+
+    .why-zuri-header-text h2 {
+        font-size: 22px;
+        line-height: normal;
+    }
+
+    .why-zuri-star {
+        display: none;
+    }
+
+    .why-zuri-cards {
+        grid-template-columns: 100%;
+    }
+
+    .card {
+        padding: 3.5rem 2.8rem;
+    }
+
+    .card img {
+        width: 170px;
+    }
+
+    .card h1 {
+        font-size: 55px;
+    }
+
+    .card h2 {
+        font-size: 30px;
+        width: 37%;
+        line-height: normal;
+        margin: 1.5rem 0;
+    }
+
+    .card p {
+        margin-bottom: 2rem;
+        font-size: 17px;
+    }
+
+    .training-container {
+        width: 90%;
+        grid-template-columns: 100%;
+    }
+
+    .get-started {
+        font-size: 17px;
+    }
+
+    .high-quality {
+        width: 90%;
+        font-size: 28px;
+    }
+
+    .promise {
+        width: 90%;
+    }
+
+    .advantages-card {
+        gap: .7rem;
+    }
+
+    .advantages-card img {
+        width: 45px;
+    }
+
+    .advantages-card p {
+        font-size: 13px;
+    }
+
+    .dot-training {
+        width: 70px;
+        bottom: -560px;
+        left: 0;
+    }
+
+    .training-img {
+        margin-bottom: 2rem;
+    }
+
+    .scope {
+        border-bottom: 1px solid #d6d6d6;
+    }
+
+    .scope-header {
+        width: 60%;
+    }
+
+    .scope-header p {
+        font-size: 17px;
+    }
+
+    .scope-header h2 {
+        font-size: 22px;
+        color: #1b1a20;
+    }
+
+    .scope-cards {
+        grid-template-columns: 100%;
+    }
+
+    .faq {
+        width: 90%;
+        border-bottom: 1px solid #d6d6d6;
+    }
+
+    .faq .section7wire {
+        width: 90px;
+        left: -2rem;
+    }
+
+    .faq-header p {
+        font-size: 18px;
+    }
+
+    .faq-header h2 {
+        font-size: 22px;
+        color: #1b1a20;
+        font-weight: 600;
+    }
+
+    .tweet-at-us {
+        flex-direction: column;
+        gap: .5rem;
+        margin-bottom: 2rem;
+    }
+
+    .tweet-at-us p {
+        font-size: 14px;
+    }
+
+    .program-structure {
+        width: 90%;
+        margin: 6rem auto;
+    }
+
+    .section7wire {
+        margin-left: 2rem;
+        width: 90px;
+        position: absolute;
+        left: -.5rem;
+        top: -3rem;
+    }
+
+    .section7star {
+        width: 50px;
+        position: absolute;
+        right: .5rem;
+        top: -2rem;
+    }
+
+    .program-structure-header p:first-child {
+        font-size: 17px;
+    }
+
+    .program-structure-header h2 {
+        font-size: 24px;
+    }
+
+    .program-structure-header p:last-child {
+        font-size: 14px;
+        width: 90%;
+        margin: 1.5rem auto;
+    }
+
+    .program-structure-cards {
+        grid-template-columns: 100%;
+        margin: 3rem 0;
+    }
+
+    .break-into h2 {
+        font-size: 35px;
+        width: 55%;
+        font-weight: 600;
+    }
+
+    .break-into .bend {
+        width: 120px;
+    }
+
+    .break-into .curve {
+        width: 100px;
+    }
+
+    .break-into .round {
+        width: 90px;
+        left: 3rem;
+        top: 2.5rem;
+    }
+
+    .break-into .mains {
+        width: 100px;
+    }
+
+    .semi-footer {
+        width: 90%;
+        margin: 5rem auto 3rem auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .socials {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    footer {
+        width: 90%;
+        margin: 1rem auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    footer .privacy {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .privacy a {
+        text-decoration: none;
+        color: #1b1a20;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .menu ul {
+        display: flex;
+    }
+
+    .enroll-now {
+        margin-left: 2rem;
+    }
+
+    .hero-text-title {
+        font-size: 45px;
+        font-weight: 700;
+    }
+
+    .line {
+        right: 2rem;
+        width: 250px !important;
+    }
+
+    .hero-text-info {
+        width: 68%;
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+    .face {
+        display: block;
+    }
+
+    .wir {
+        margin-top: 1rem;
+        width: 80px !important;
+        margin-left: 6rem;
+    }
+
+    .i4g {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .i4g h2 {
+        text-align: left;
+        font-size: 21px;
+        line-height: normal;
+        color: #1b1a20;
+        font-weight: 600;
+    }
+
+    .i4g p {
+        text-align: right;
+    }
+
+    .why-zuri-header {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .why-zuri-star {
+        display: block;
+    }
+
+    .why-zuri-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .advantages {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .advantages-card p {
+        font-size: 16px;
+    }
+
+    .dot-training {
+        width: 90px;
+        bottom: -860px;
+        left: 0;
+    }
+
+    .scope-header {
+        width: 90%;
+    }
+
+    .scope-header p {
+        font-size: 19px;
+    }
+
+    .scope-header h2 {
+        font-size: 25px;
+    }
+
+    .scope-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .faq .section7wire {
+        width: 90px;
+        left: 8rem;
+        top: -3rem;
+    }
+
+    .tweet-at-us {
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .tweet-at-us p {
+        font-size: 16px;
+    }
+
+    .program-structure-header h2 {
+        font-size: 28px;
+    }
+
+    .program-structure-header p:last-child {
+        font-size: 16px;
+    }
+
+    .program-structure-cards {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 5rem 0;
+    }
+
+    .break-into h2 {
+        font-size: 40px;
+        width: 55%;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .hero {
+        display: grid;
+        grid-template-columns: 25% 50% 25%;
+        gap: 1rem;
+        margin: 6rem auto;
+        width: 90%;
+        justify-items: end;
+    }
+
+    .hero img {
+        width: 100%;
+    }
+
+    .img-lady {
+        /* display: flex;
+        align-items: flex-end; */
+        margin-top: 5rem;
+    }
+
+    .hero-text {
+        text-align: center;
+        position: relative;
+    }
+
+    .hero-text-search {
+        color: #e7332b;
+        letter-spacing: 1px;
+    }
+
+    .hero-text-title {
+        font-size: 45px;
+        color: #1b1a20;
+        line-height: 59px;
+        margin: 1rem 0 0 0;
+    }
+
+    .line {
+        width: 180px !important;
+        position: absolute;
+        right: 7rem;
+    }
+
+    .hero-text-info {
+        margin: 2rem auto;
+        width: 65%;
+        color: #1b1a20;
+    }
+
+    .enroll-red {
+        background: #e7332b;
+        color: #fff;
+        border-radius: 30px;
+        padding: .5rem 1.6rem;
+        font-size: 20px;
+        letter-spacing: 2px;
+        cursor: pointer;
+        text-decoration: none;
+        margin-bottom: 5rem;
+    }
+
+    .hero-text-base {
+        width: 60%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .section1wire {
+        width: 40px !important;
+    }
+
+    .img-male {
+        display: block;
+    }
+
+    .wir {
+        margin-top: 5rem;
+        width: 70px !important;
+    }
+
+    .why-zuri-cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+        margin: 5rem 0;
+    }
+
+    .training-container {
+        width: 85%;
+        margin: 2rem auto;
+        padding: 3rem 0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .training-img {
+        width: 100%;
+    }
+
+    .training-text {
+        padding: 2rem 0;
+        position: relative;
+    }
+
+    .get-started {
+        font-weight: 400;
+        font-size: 20px;
+    }
+
+    .high-quality {
+        font-size: 35px;
+        width: 75%;
+        word-spacing: 2px;
+        margin: .6rem 0;
+    }
+
+    .promise {
+        width: 56%;
+        margin: 2rem 0 2rem 0;
+        word-spacing: 2px;
+    }
+
+    .advantages {
+        margin: 3rem 0 5rem 0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+
+    .advantages-card {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        border: 2px solid #fff;
+        border-radius: 40px;
+        padding: .5rem 1rem;
+    }
+
+    .advantages-card img {
+        width: 55px;
+    }
+
+    .advantages-card p {
+        font-weight: 500;
+    }
+
+    .scope-header {
+        width: 48%;
+    }
+
+    .scope-header p {
+        color: #e7332b;
+        font-size: 23px;
+    }
+
+    .scope-header h2 {
+        font-size: 40px;
+        color: #1b1a20;
+        font-weight: 700;
+    }
+
+    .scope-cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+        margin: 1rem 0;
+    }
+
+    .program-structure {
+        width: 75%;
+        margin: 6rem auto;
+        position: relative;
+    }
+
+    .section7wire {
+        margin-left: 4rem;
+        width: 130px;
+    }
+
+    .section7star {
+        position: absolute;
+        right: 0;
+        top: -3rem;
+        width: 130px;
+    }
+
+    .program-structure-header {
+        text-align: center;
+    }
+
+    .program-structure-header p:first-child {
+        color: #e7332b;
+        font-size: 24px;
+    }
+
+    .program-structure-header h2 {
+        color: #1b1a20;
+        font-size: 39px;
+        font-weight: 600;
+    }
+
+    .program-structure-header p:last-child {
+        font-size: 17px;
+        margin: 1.5rem 0;
+        color: #1b1a20;
+    }
+
+    .break-into h2 {
+        font-size: 50px;
+        width: 50%;
+        margin: 1rem auto 2rem auto;
+    }
 }
