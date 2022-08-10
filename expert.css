@@ -83,12 +83,15 @@ Ul{overflow:hidden;}
 
 .section1{
 display:grid;
-grid-template-columns:(2, 1fr);}
+grid-template-columns:(2 1fr);}
 
 .section2{
 display:grid;
-grid-template-columns:(2, 1fr);} 
+grid-template-columns:(2 1fr);} 
 
 .social{display:flex;
 flex-direction:row;
 } 
+
+.v{display:grid;
+grid-template-columns:(3 1fr) ;} 
