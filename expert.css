@@ -32,7 +32,7 @@ color: white;}
 
 .social{display: flex;
 flex-direction:row;
-align:center;
+align-items:center;
 gap: 2px;} 
 
 
