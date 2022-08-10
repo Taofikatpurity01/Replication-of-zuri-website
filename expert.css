@@ -88,3 +88,7 @@ grid-template-columns:(3, 1fr);}
 .section2{
 display:grid;
 grid-template-columns:(3, 1fr);} 
+
+.social{display:flex;
+flex-direction:row;
+} 
