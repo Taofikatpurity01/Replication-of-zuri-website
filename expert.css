@@ -80,3 +80,11 @@ gap:2px;}
     }
 Ul{overflow:hidden;}
     li{display:inline-block;"} 
+
+.section1{
+display:grid;
+grid-template-columns:(3, 1fr);}
+
+.section2{
+display:grid;
+grid-template-columns:(3, 1fr);} 
