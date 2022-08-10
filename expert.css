@@ -47,7 +47,8 @@ gap: 2px;}
 
 
 .button{margin-top: 20px;
-       margin-bottom:20px;}
+       margin-bottom:20px;
+padding:50px;}
 
 
 .footer {background-color:black;
@@ -77,3 +78,5 @@ gap:2px;}
         padding: 1rem 0 0 0;
         justify-content: center;
     }
+Ul{overflow:hidden;}
+    li{display:inline-block;"} 
