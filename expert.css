@@ -58,7 +58,7 @@ padding:50px;}
         }
 
 
-.x{display: grid;
+.x{display: flex;
 gap:2px;}
 
 
