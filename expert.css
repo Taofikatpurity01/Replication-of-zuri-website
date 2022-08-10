@@ -98,3 +98,5 @@ grid-template-columns:repeat(3, 1fr) ;}
 .x{display:flex;
 justify-content:space-between;
 } 
+.first{width:50%;}
+.second{width:50%;} 
