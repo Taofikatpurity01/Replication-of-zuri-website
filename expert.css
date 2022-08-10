@@ -71,10 +71,17 @@ gap:2px;}
   display: border-box ;
   margin: 4px ;}
 
+.copyright{width: 90%;
+        border-top: 1px solid #d6d6d6;
+        margin: 2rem auto 0 auto;
+        padding: 1rem 0 0 0;
+        justify-content: center;
+    }
+
 .section1{display:flex ;
-justify-content:space-between;
+flex-direcion:row;
 } 
 
 .section2{display:flex;
-justify-content:space-between;
+flex-direction:row;
 } 
