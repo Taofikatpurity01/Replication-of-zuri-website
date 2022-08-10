@@ -183,3 +183,9 @@ li {
 .twitter{
 width:10px;
 } 
+
+.v:hover {
+    background: black;
+    border: 1px solid black;
+    color:white;
+}
