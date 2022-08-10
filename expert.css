@@ -100,7 +100,7 @@ grid-template-columns:repeat(3, 1fr) ;}
 .x{display:flex;
 justify-content:space-between;
 } 
-.first{width:50%;}
-.second{width:50%;} 
-.head{width:50%;}
-.body{width:50%;}
+.first{width:50px;}
+.second{width:50px;} 
+.head{width:50px;}
+.body{width:50px;}
