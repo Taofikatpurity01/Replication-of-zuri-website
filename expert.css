@@ -1,108 +1,180 @@
-html, body {
-  height: 100%;
-  width: 100%;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
 }
 
 
-a{color:red;}
-
-
-.top{
-display: flex ;
-justify-content: space-between;
+a {
+    color: red;
 }
 
 
-.z{background-color: red ;
-  border-radius: 0px 0px 12px 0px ;
-  cursor: pointer;
-color: white;}
+.top {
+    display: flex;
+    justify-content: space-between;
+}
 
 
-.y{background-color:#1a1a1a;
-  border-radius: 0px 0px 12px 0px ;
-  cursor: pointer;
-  color: white;
- border:100px;}
-.head{background-color:white;
-     }
+.z {
+    background-color: red;
+    border-radius: 0px 0px 12px 0px;
+    cursor: pointer;
+    color: white;
+}
 
 
-.body{background-color:#fff2f5; }
+.y {
+    background-color: #1a1a1a;
+    border-radius: 0px 0px 12px 0px;
+    cursor: pointer;
+    color: white;
+    border: 100px;
+}
 
-.social{display: flex;
-flex-direction:row;
-align:center;
-gap: 2px;} 
-
-
-.v{border: 100px;
- background-color: white; 
-  display:border-box;
-   margin: 4px ;
-   height: 300px;
-   border-radius: 0px 0px 12px 0px ;
-     }
+.head {
+    background-color: white;
+}
 
 
-.semi{background-color: wheat;
-     }
+.body {
+    background-color: #fff2f5;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    align: center;
+    gap: 2px;
+}
+
+.why-hire {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    justify-self: center;
+    width: 90%;
+    margin: 1rem auto;
+}
 
 
-.button{margin-top: 20px;
-       margin-bottom:20px;
-padding:50px;}
+.v {
+    border: 100px;
+    background-color: white;
+    /* display: border-box; */
+    padding: 2rem;
+    margin: 4px;
+    height: 250px;
+    border-radius: 0px 0px 18px 0px;
+}
 
 
-.footer {background-color:black;
-        }
+.semi {
+    background-color: #fff8e5;
+}
+
+.semi h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.semi-red{
+    color: red;
+}
 
 
-.x{display: flex;
-gap:2px;}
+.button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 50px;
+}
 
 
-.t{border: 100px;
-  background-color: whitesmoke;
- padding:50px;
-  display:border-box;
-  margin:4px;} 
+.footer {
+    background-color: black;
+}
 
 
-.u{border: 100px;
-  background-color: whitesmoke;
-    padding:50px;
-  display: border-box ;
-  margin: 4px ;}
+.x {
+    display: flex;
+    gap: 2px;
+}
 
-.copyright{width: 90%;
-        border-top: 1px solid white;
-        margin: 2rem auto 0 auto;
-        padding: 1rem 0 0 0;
-        justify-content: center;
+
+.t {
+    border: 100px;
+    background-color: whitesmoke;
+    padding: 50px;
+    display: border-box;
+    margin: 4px;
+}
+
+
+.u {
+    border: 100px;
+    background-color: whitesmoke;
+    padding: 50px;
+    display: border-box;
+    margin: 4px;
+}
+
+.copyright {
+    width: 90%;
+    border-top: 1px solid white;
+    margin: 2rem auto 0 auto;
+    padding: 1rem 0 0 0;
+    justify-content: center;
+}
+
+Ul {
+    overflow: hidden;
+}
+
+li {
+    display: inline-block;
+    } 
+
+
+    .section1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
-Ul{overflow:hidden;}
-    li{display:inline-block;"} 
 
-.section1{
-display:grid;
-grid-template-colum: repeat(2, 1fr);
-}
+    .section2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 
-.section2{
-display:grid;
-grid-template-colum: repeat(2, 1fr);
-} 
+    .v {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
 
-.v{display:grid;
-grid-template-columns:repeat(3, 1fr) ;} 
+    .x {
+        display: flex;
+        justify-content: space-between;
+    }
 
-.x{display:flex;
-justify-content:space-between;
-} 
-.first{width:50px;}
-.second{width:50px;} 
-.head{width:50px;
-width:100%}
-.body{width:50px;
-width:100;}
+    .first {
+        width: 50px;
+    }
+
+    .second {
+        width: 50px;
+    }
+
+    .head {
+        width: 50px;
+        width: 100%
+    }
+
+    .body {
+        width: 50px;
+        width: 100;
+    }
