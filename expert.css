@@ -60,14 +60,14 @@ gap:2px;}
 
 .t{border: 100px;
   background-color: whitesmoke;
-  height: 100px;
+ padding:50px;
   display:border-box;
   margin:4px;} 
 
 
 .u{border: 100px;
   background-color: whitesmoke;
-  height: 100px;
+    padding:50px;
   display: border-box ;
   margin: 4px ;}
 
