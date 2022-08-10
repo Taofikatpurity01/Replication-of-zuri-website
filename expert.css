@@ -86,11 +86,13 @@ Ul{overflow:hidden;}
 
 .section1{
 display:grid;
-grid-template-colum: repeat(2, 1fr);}
+grid-template-colum: repeat(2, 1fr);
+}
 
 .section2{
 display:grid;
-grid-template-colum: repeat(2, 1fr);} 
+grid-template-colum: repeat(2, 1fr);
+} 
 
 .v{display:grid;
 grid-template-columns:repeat(3, 1fr) ;} 
@@ -100,3 +102,5 @@ justify-content:space-between;
 } 
 .first{width:50%;}
 .second{width:50%;} 
+.head{width:50%;}
+.body{width:50%;}
