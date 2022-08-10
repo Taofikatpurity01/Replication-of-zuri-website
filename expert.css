@@ -102,5 +102,7 @@ justify-content:space-between;
 } 
 .first{width:50px;}
 .second{width:50px;} 
-.head{width:50px;}
-.body{width:50px;}
+.head{width:50px;
+width:100%}
+.body{width:50px;
+width:100;}
