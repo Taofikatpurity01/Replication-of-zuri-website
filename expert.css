@@ -138,6 +138,8 @@ Ul {
 
 li {
     display: inline-block;
+    list-style: none;
+    font-size: 20px;
     } 
 
 
